@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
+    <!--CDN link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- CDN Link - Google font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      #he{
+      #he {
         background-color: pink;
       }
+      nav a {
+        margin-left: 60px;
+        text-decoration: none;
+       
+      }
+      
+      footer a {
+        margin-right: 40px;
+        text-decoration: none;
+      }
+      header span {
+        margin-left: 50px;
+        background-color: orange;
+      }
     </style>
-</head>
-<body>
-   <!--Header Section-->
-   <header style="color:orange;background-color: gray;"><span>Name: Jija &nbsp;&nbsp; &nbsp;&nbsp; Mobile:7890  78 6756 &nbsp; &nbsp;&nbsp;&nbsp; Email:abc@gmail.com</p>
-  </header>
-   <hr>
-      <!--Navigation Section-->
-      <nav>
-        <a href="home.html" target="myFrame">HOME</a> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame">TECH STACK</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-        <a href="project.html" target="myFrame">PROJECT</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-        <a href="education.html" target="myFrame">EDUCATION</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-        <a href="others.html" target="myFrame">OTHERS</a>
-      </nav>
-      <hr>
-        <!--Body Section-->
-        <iframe src="home.html" name="myFrame" width="900" height="450">
-            <iframe src="education.html" name="myFrame" width="900" height="450"></iframe>
-            
-
-        </iframe>
-          <!--Footer Section-->
-          <footer>
-            <a href=""></a>&nbsp;&nbsp; &nbsp;&nbsp;
-<a href="https://www.linkedin.com">Linked In</a>&nbsp;&nbsp; &nbsp;&nbsp;
-<a href="https://github.com/login">GitHub</a>&nbsp;&nbsp; &nbsp;&nbsp;
-<a href="home.html">Naukari</a>
-          </footer>
-</body>
+  </head>
+  <body>
+    <!--Header Section-->
+    <header>
+      <span> <i class="fa fa-user" aria-hidden="true"></i> Jija Molak </span>
+      <span>
+        <i class="fa fa-phone-square" aria-hidden="true"></i> 8600 2550 66
+      </span>
+      <span>
+        <i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com</span
+      >
+    </header>
+    <hr />
+    <!--Navigation Section-->
+    <nav>
+      <a href="home.html" target="myFrame">HOME</a>
+      <a href="techStack.html" target="myFrame">TECH STACK</a>
+      <a href="project.html" target="myFrame">PROJECT</a>
+      <a href="education.html" target="myFrame">EDUCATION</a>
+      <a href="others.html" target="myFrame">OTHERS</a>
+    </nav>
+    <hr />
+    <!--Body Section-->
+    <iframe src="home.html" name="myFrame" width="900" height="450">
+      <iframe
+        src="education.html"
+        name="myFrame"
+        width="900"
+        height="450"
+      ></iframe>
+    </iframe>
+    <!--Footer Section-->
+    <footer>
+      <a href=""></a>
+      <a href="https://www.linkedin.com">Linked In</a>
+      <a href="https://github.com/login">GitHub</a>
+      <a href="home.html">Naukari</a>
+    </footer>
+  </body>
 </html>
